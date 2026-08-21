@@ -1,8 +1,9 @@
 #!/bin/bash
-echo "Пользователь: $USER"
-echo "Текущий каталог: $PWD"
-echo "Домашний каталог: $HOME"
-echo "Информация об ОС:"
+echo "Привет"
+echo "Моё имя $USER"
+echo "Сейчас я нахожусь в $PWD"
+echo "Мой домашний каталог $HOME"
+echo "Моя ОС"
 cat /etc/os-release
-echo "Время работы системы:"
+echo "Мое время работы"
 uptime
